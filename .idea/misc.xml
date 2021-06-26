@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/AccessDB/pom.xml" />
+        <option value="$PROJECT_DIR$/helloworld/pom.xml" />
       </list>
     </option>
   </component>
