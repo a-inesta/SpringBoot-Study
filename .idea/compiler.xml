@@ -7,18 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="AccessDB" />
+        <module name="helloworld" />
         <module name="demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AccessDB" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="helloworld" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AccessDB" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="helloworld" options="-parameters" />
     </option>
   </component>
 </project>
